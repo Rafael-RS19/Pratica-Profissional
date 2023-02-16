@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendinha</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="shortcut icon" href="src/img/formulário-de-referência.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Minha Agenda</h1>
+    </header>
+    <form class="inputs">
+        <label for="txt">Seu nome:</label><br>
+        <input class="inpt" type="text" id="txt" placeholder="Digite o seu nome aqui..."> <br><br>
+
+        <label for="idade">Sua idade:</label><br>
+        <input class="inpt" type="number" id="idade" placeholder="Informe sua idade..."> <br><br>
+
+        <label for="email">Email:</label><br>
+        <input class="inpt" type="email" id="email" placeholder="Informe seu email..."> <br><br>
+
+        <label for="fone">Telefone de contato:</label><br>
+        <input class="inpt" type="tel" id="cell" placeholder="(00) 00000-0000"> <br><br>
+
+        <label for="txtarea">Endereço:</label> <br>
+        <textarea id="txtarea" placeholder="Informe seu endreço, rua, número, complementos etc..." cols="40" rows="10"></textarea> <br> <br>
+
+        ⇨<input class="button" type="submit" value="Guardar Dados" onclick="salvarDados()">⇦
+    </form>
+
+    <script src="src/script/script.js"></script>
+</body>
+</html>
